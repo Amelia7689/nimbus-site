@@ -6,7 +6,7 @@ hide_table_of_contents: true
 ---
 
 Nimbus is a suite of Ethereum client implementations designed to be as lightweight, easy to use, and adaptive as possible. The consensus client is the first of three Nimbus implementations to reach production. Meanwhile, an execution client and a true Ethereum light client are still in development.
-From their programming language upwards, Nimbus clients are optimised to conserve system resources, making them suitable to run on embedded systems and lower-specification devices. Nim, the language in which Nimbus clients are written, was chosen for the following reasons:
+From their programming language upwards, Nimbus clients are optimised to conserve system resources, making them suitable for running on embedded systems and lower-specification devices. Nim, the language in which Nimbus clients are written, was chosen for the following reasons:
 
 - It is an efficient, general-purpose systems programming language.
 - It features Python-like syntax that compiles to C, enabling us to take advantage of the C language's mature tooling for code compilation and static code analysis.
@@ -18,7 +18,7 @@ Nimbus is fortunate to have multiple Nim contributors working on its client impl
 
 ## Consensus client
 
-The Nimbus consensus client offers significant advantages for all levels of users from hobbyists to institutional operators. The advantages include:
+The Nimbus consensus client offers significant advantages for users of all levels, from hobbyists to institutional operators. The advantages include:
 
 - Light and high performing: Nimbus consensus client strives to be as lightweight and high performing as possible in terms of resource overhead, leaving more headroom during times of heightened network usage. Operators can also run Nimbus together with other workloads on their servers to reduce overall costs.
 
@@ -49,7 +49,7 @@ Alongside the portal client, Nimbus has developed a light, verified web3 proxy t
 Ultimately, light clients will provide greater security to users, reveal new blockchain use cases, and enable the Ethereum ecosystem to reduce its dependency on centralised entities that represent single points of failure or capture.
 
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/fluffy) or [read more.](nimbus.team/docs/fluffy)
+View the [Github repository](https://github.com/status-im/nimbus-eth1/tree/master/fluffy).
 
 ## Execution client
 Following Ethereum's switch to proof-of-stake in 2022, Ethereum validators must operate clients on both the consensus and execution layers. Yet, as of today, no client team offers both an execution and consensus layer client.
@@ -58,4 +58,4 @@ Although the Nimbus execution client is still in development when in production,
 
 Like the Nimbus consensus client, the execution client is written in Nim and designed to be as lightweight as possible, preserving valuable system resources.
 
-View the [Github repository](https://github.com/status-im/nimbus-eth1) or [read more.](nimbus.team/docs/eth1)
+View the [Github repository](https://github.com/status-im/nimbus-eth1).
